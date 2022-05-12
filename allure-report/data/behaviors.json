@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "contact",
+    "children" : [ {
+      "name" : "tc01",
+      "uid" : "b95d6205a18fdf74",
+      "parentUid" : "33cb4138df80ec9c0420d4168552f053",
+      "status" : "broken",
+      "time" : {
+        "start" : 1652336422410,
+        "stop" : 1652336428727,
+        "duration" : 6317
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.64" ]
+    } ],
+    "uid" : "33cb4138df80ec9c0420d4168552f053"
+  }, {
+    "name" : "organization",
+    "children" : [ {
+      "name" : "tc02",
+      "uid" : "e8c46421d7499979",
+      "parentUid" : "1eed95696747f41b3d2b94da39e21b57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652336431054,
+        "stop" : 1652336437090,
+        "duration" : 6036
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.64" ]
+    } ],
+    "uid" : "1eed95696747f41b3d2b94da39e21b57"
+  } ]
+}

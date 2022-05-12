@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652336347200' stop='1652336353775'>
+    <name>testSuite01</name>
+    <title>testSuite01</title>
+    <test-cases>
+        <test-case start='1652336347201' status='broken' stop='1652336353773'>
+            <name>tc01</name>
+            <title>tc01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.64'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4c49aa3e-41da-4a7d-8b73-3d36c6332af0-attachment.png' type='image/png' size='61871'/>
+            </attachments>
+            <failure>
+                <message>allureReporter is not defined</message>
+                <stack-trace>ReferenceError: allureReporter is not defined
+                    at Context.&lt;anonymous> (C:\Users\PradeepCR\Desktop\SEDT_32_WEBDRIVERIO\test\specs\tc_01.js:5:9)
+                    at Context.executeAsync (C:\Users\PradeepCR\Desktop\SEDT_32_WEBDRIVERIO\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\PradeepCR\Desktop\SEDT_32_WEBDRIVERIO\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

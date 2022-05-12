@@ -1,0 +1,124 @@
+{
+  "uid" : "b95d6205a18fdf74",
+  "name" : "tc01",
+  "fullName" : "testSuite01.tc01",
+  "historyId" : "4446add0feaf43cdbad915478db9468",
+  "time" : {
+    "start" : 1652336422410,
+    "stop" : 1652336428727,
+    "duration" : 6317
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "intentional fail",
+  "statusTrace" : "AssertionError: intentional fail\n                    at Context.<anonymous> (C:\\Users\\PradeepCR\\Desktop\\SEDT_32_WEBDRIVERIO\\test\\specs\\tc_01.js:7:16)\n                    at Context.executeAsync (C:\\Users\\PradeepCR\\Desktop\\SEDT_32_WEBDRIVERIO\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\PradeepCR\\Desktop\\SEDT_32_WEBDRIVERIO\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "intentional fail",
+    "statusTrace" : "AssertionError: intentional fail\n                    at Context.<anonymous> (C:\\Users\\PradeepCR\\Desktop\\SEDT_32_WEBDRIVERIO\\test\\specs\\tc_01.js:7:16)\n                    at Context.executeAsync (C:\\Users\\PradeepCR\\Desktop\\SEDT_32_WEBDRIVERIO\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\PradeepCR\\Desktop\\SEDT_32_WEBDRIVERIO\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "67b3be2d0d3f7425",
+      "name" : "Screenshot",
+      "source" : "67b3be2d0d3f7425.png",
+      "type" : "image/png",
+      "size" : 61871
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "contact"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "testSuite01"
+  }, {
+    "name" : "testClass",
+    "value" : "testSuite01"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc01"
+  }, {
+    "name" : "package",
+    "value" : "testSuite01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2b09eee429fea72",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1652336347201,
+        "stop" : 1652336353773,
+        "duration" : 6572
+      }
+    }, {
+      "uid" : "693364b973bc45c4",
+      "status" : "broken",
+      "statusDetails" : "intentional fail",
+      "time" : {
+        "start" : 1652336005404,
+        "stop" : 1652336011747,
+        "duration" : 6343
+      }
+    }, {
+      "uid" : "ae7108e7d5146365",
+      "status" : "broken",
+      "statusDetails" : "intentional fail",
+      "time" : {
+        "start" : 1652335365368,
+        "stop" : 1652335371792,
+        "duration" : 6424
+      }
+    }, {
+      "uid" : "d845916d46a4f9a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652334926720,
+        "stop" : 1652334933306,
+        "duration" : 6586
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b95d6205a18fdf74.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}

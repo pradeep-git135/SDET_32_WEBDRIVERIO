@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "intentional fail",
+      "children" : [ {
+        "name" : "tc01",
+        "uid" : "b95d6205a18fdf74",
+        "parentUid" : "9e3079034567e12b6c121b9865f6539d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652336422410,
+          "stop" : 1652336428727,
+          "duration" : 6317
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-101.0.4951.64" ]
+      } ],
+      "uid" : "9e3079034567e12b6c121b9865f6539d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

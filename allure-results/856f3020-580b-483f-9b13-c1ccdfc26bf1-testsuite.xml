@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652336005404' stop='1652336011748'>
+    <name>testSuite01</name>
+    <title>testSuite01</title>
+    <test-cases>
+        <test-case start='1652336005404' status='broken' stop='1652336011747'>
+            <name>tc01</name>
+            <title>tc01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.64'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b0400616-04d9-467d-8c0d-8af4b793783b-attachment.png' type='image/png' size='61871'/>
+            </attachments>
+            <failure>
+                <message>intentional fail</message>
+                <stack-trace>AssertionError: intentional fail
+                    at Context.&lt;anonymous> (C:\Users\PradeepCR\Desktop\SEDT_32_WEBDRIVERIO\test\specs\tc_01.js:6:16)
+                    at Context.executeAsync (C:\Users\PradeepCR\Desktop\SEDT_32_WEBDRIVERIO\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\PradeepCR\Desktop\SEDT_32_WEBDRIVERIO\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

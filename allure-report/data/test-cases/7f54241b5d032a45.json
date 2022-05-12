@@ -1,0 +1,60 @@
+{
+  "uid" : "7f54241b5d032a45",
+  "name" : "tc02",
+  "fullName" : "testSuite02.tc02",
+  "historyId" : "83f655dbdd3abca80826edc9211dc51d",
+  "time" : {
+    "start" : 1652335373981,
+    "stop" : 1652335381700,
+    "duration" : 7719
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "testSuite02"
+  }, {
+    "name" : "testClass",
+    "value" : "testSuite02"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc02"
+  }, {
+    "name" : "package",
+    "value" : "testSuite02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f54241b5d032a45.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}

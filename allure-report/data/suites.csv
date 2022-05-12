@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu May 12 11:50:22 IST 2022","Thu May 12 11:50:28 IST 2022","6317","","testSuite01","","testSuite01","tc01","tc01",""
+"passed","Thu May 12 11:50:31 IST 2022","Thu May 12 11:50:37 IST 2022","6036","","testSuite02","","testSuite02","tc02","tc02",""
